@@ -1,5 +1,5 @@
 
-# Manufactura Web
+# Manufacture Web
 
 This project is the frontend for the Manufacture API, built with Angular 17. It provides a user interface to manage the stock of products in a manufacturing plant. The frontend allows the following operations:
 
@@ -26,13 +26,13 @@ This project is the frontend for the Manufacture API, built with Angular 17. It 
 Clone the project
 
 ```bash
-  git clone https://github.com/Brayan9812omeroN/ManufacturaWeb.git
+  git clone https://github.com/Brayan9812omeroN/ManufactureWeb.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd ManufacturaWeb
+  cd ManufactureWeb
 ```
 
 Install dependencies
