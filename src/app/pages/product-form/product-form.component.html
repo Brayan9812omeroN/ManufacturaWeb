@@ -1,0 +1,33 @@
+<mat-card class="card-styled">
+  <mat-card-header>
+    <mat-card-title class="title-styled">Register Product</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <h3 class="section-title">Individual Registration</h3>
+    <form [formGroup]="productForm" (ngSubmit)="submitProduct()">
+      <mat-form-field class="input-custom">
+        <mat-label>Product Name</mat-label>
+        <input matInput formControlName="name" />
+      </mat-form-field>
+
+      <mat-form-field class="input-custom">
+        <mat-label>Elaboration</mat-label>
+        <mat-select formControlName="elaborationName">
+          <mat-option *ngFor="let elaboration of elaborationOptions" [value]="elaboration">
+            {{ elaboration }}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+
+      <button mat-flat-button color="primary" type="submit">Add Product</button>
+    </form>
+
+    <hr class="divider" />
+
+    <div class="file-upload-section">
+      <h3 class="section-title">Mass registration</h3>
+      <input type="file" (change)="onFileSelected($event)" />
+    </div>
+    <button class="loadProducts" mat-flat-button color="primary" (click)="uploadProducts()">Load Products</button>
+  </mat-card-content>
+</mat-card>

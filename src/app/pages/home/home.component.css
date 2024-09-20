@@ -1,0 +1,46 @@
+.card-styled {
+  margin: 20px;
+  padding: 20px;
+}
+
+.title-styled {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+}
+
+.mat-mdc-card-title {
+  font-size: 35px;
+  margin: 20px;
+}
+
+.filter-and-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.filter-styled {
+  width: 200px;
+}
+
+.product-table {
+  width: 100%;
+  background-color: rgb(197, 194, 194);
+}
+
+th {
+  font-weight: bold;
+}
+
+td,
+th {
+  padding: 10px;
+  text-align: left;
+}
+
+button {
+  margin-right: 5px;
+}
